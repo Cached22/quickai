@@ -1,0 +1,40 @@
+# General
+/vendor/
+/node_modules/
+/.idea/
+/.vscode/
+.DS_Store
+Thumbs.db
+
+# Environment files
+/.env
+/.env.local
+/.env.*.local
+
+# Log files
+*.log
+
+# PHP Composer
+/composer.phar
+/phpunit.xml
+
+# User-specific files
+/.phpstorm.meta.php
+
+# OS-specific files
+._*
+.Spotlight-V100
+.Trashes
+
+# Others
+/cache/
+/sessions/
+/vendor/
+!public/vendor/
+!resources/assets/vendor/
+/phpunit
+/public/hot
+/public/storage
+/storage/*.key
+.env.backup
+/config.php
