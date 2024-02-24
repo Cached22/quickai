@@ -1,6 +1,16 @@
 {
     "require": {
         "php": ">=7.4",
-        "ext-mbstring": "*"
+        "ext-curl": "*",
+        "ext-openssl": "*",
+        "ext-pdo": "*",
+        "ext-gd": "*",
+        "ext-mbstring": "*",
+        "ext-exif": "*"
+    },
+    "config": {
+        "platform": {
+            "php": "7.4"
+        }
     }
 }
